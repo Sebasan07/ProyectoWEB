@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    padding: 0;
+    background-color: rgb(53, 63, 63);
+}
+
+h1 {
+    font-size: 28px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: darkslategray;
+    padding-top: 25px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+div.proyectos {
+    height: 315px;
+    width: 100%;
+    background-color: rgb(23, 48, 48);
+    border-radius: 6px;
+}
+
+div.proyectos ul {
+    padding: 10px;
+    margin-left: 200px;
+}
+
+div.proyectos ul li {
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+div.proyectos ul li a {
+    font-size: 17px;
+    font-style: italic;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: rgb(23, 48, 48);
+    color: #fff;
+    border-radius: 2;
+    width: 100%;
+    text-align: center;
+}
+
+div.proyectos ul li a:hover {
+    background-color: rgb(30, 59, 59);
+    margin-top: -2;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+img#html-logo {
+    height: 200px;
+    width: 200px;
+}
+
+img#css-logo {
+    height: 200px;
+    width: 200px;
+}
+
+img#boots-logo {
+    height: 200px;
+    width: 350px;
+}
